@@ -1,0 +1,134 @@
+*
+{
+	box-sizing: border-box;
+}
+
+
+body
+{
+   
+   font-family: 'Sofia';
+   
+   background-color: #ff0000;
+}
+
+
+h1
+{
+    
+     margin: 100px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 175%
+	
+	
+}
+section {
+		position: relative;
+		padding: 15px;
+		width: 100%;
+	}
+p
+{
+  position: relative;
+  clear: right;
+}
+div {
+		position: relative;
+		background-color: gray;
+		border: 1px solid black;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+	}
+.sub1 {
+
+		float: right;
+		color: white;
+		background-color: maroon;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		
+		
+	}
+	.sub2 {
+
+		float: right;
+		color: white;
+		background-color: orange;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		
+		
+	}
+	.sub3 {
+
+		float: right;
+		color: white;
+		background-color: pink;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		
+		
+	}
+	.row {
+		width: 90%;
+	}
+	.content {
+		padding: 5px;
+		border: none;
+		background-color: gray;
+		
+		color: black;
+		margin: 0px;
+		height: 200px;
+		overflow: auto;
+	}
+	
+	
+	/*desktop version*/
+	@media (min-width: 992px){
+		.col-lg-4 {
+			float: left;
+			width: 33.33%;
+		}
+	}
+	/*tablet version*/
+	@media (min-width: 768px) and (max-width: 991px){
+		.col-md-6 {
+			float: left;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.col-md-12 {
+			float: left;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	/*mobile version*/
+	@media (max-width: 767px){
+		.col-sm-12 {
+			float: left;
+			width: 100%;
+		}
+	}
+
